@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Vedio player</h1>
+ <video src="assets/vedios/WhatsApp Video 2024-08-17 at 18.35.52_f290a3c7.mp4" id="vedio" class="screen"></video>
+    <div class="controls">
+        <button class="btn" id="play">
+            <i class="fa-solid fa-play fa-2x"></i>
+        </button>
+        <button class="btn" id="stop">
+            <i class="fa-solid fa-stop fa-2x"></i>
+        </button>
+        <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0">
+        <span id="timestramp" class="timestamp">00:00</span>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/65b8717641.js" crossorigin="anonymous"></script>
+</body>
+</html>
